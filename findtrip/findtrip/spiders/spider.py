@@ -31,4 +31,5 @@ class QuaSpider(scrapy.Spider):
             item['passtime'] = passtime
             item['price'] = price
             items.append(item)
+            self.log('Add item[{}]'.format(flight_time))
         return items

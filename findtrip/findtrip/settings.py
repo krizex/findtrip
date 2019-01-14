@@ -26,7 +26,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'findtrip.pipelines.MongoDBPipeline': 300,
+    # 'findtrip.pipelines.MongoDBPipeline': 300,
 }
 
 MONGODB_HOST = 'localhost' # Change in prod
